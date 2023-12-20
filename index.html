@@ -4,19 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5017f3f295.js" crossorigin="anonymous"></script>
     <title>Quick Note</title>
 </head>
 
-<body style="background-color: #313131;">
-    <h1 style="text-decoration: underline;">Quick Note</h1>
-    <input style="background-color: #313131; border: #313131;" type="text" name="" id="inputText"
-        placeholder="Enter your note here">
+<body>
+    <div class="left-container">
+        <h1>Welcome</h1>
+        <ul>
+            <li>We're thrilled to have you on board. QuickNote is your go-to solution for fast and hassle-free
+                note-taking. Whether it's a quick reminder or a sudden idea, jot it down effortlessly.</li>
+        </ul>
+    </div>
+    <div class="centre-container">
+        <h1 id="main-heading">Quick Note</h1>
+        <input type="text" name="" id="inputText" placeholder="Enter your note here">
 
-    <button id="addButton">Add</button>
+        <button id="addButton">Add</button>
 
-    <ul id="listItem">
+        <ul id="listItem">
 
-    </ul>
+        </ul>
+    </div>
+    <div class="right-container">
+        <h1>Getting Started</h1>
+        <ol>
+            <li><strong>Adding Notes:</strong>
+                <ul>
+                    <li>Type your text in the provided text input area.</li>
+                    <li>Click on the "Add" button to save your note.</li>
+                </ul>
+            </li>
+
+            <li><strong>Deleting Notes:</strong>
+                <ul>
+                    <li>To delete a note, simply click on the note you want to remove from the list.</li>
+                </ul>
+            </li>
+
+            <li><strong>Note Persistence:</strong>
+                <ul>
+                    <li>Notes will be deleted automatically when you refresh or close the browser.</li>
+                    <li>Please note that QuickNote does not store your notes permanently.</li>
+                </ul>
+            </li>
+        </ol>
+
+        <p><strong>Additional Tips:</strong></p>
+        <ul>
+            <li>You can add as many notes as you need.</li>
+            <li>Take advantage of the simplicity and speed of QuickNote for quick reminders and thoughts.</li>
+        </ul>
+
+        <p><strong>Important Reminder:</strong></p>
+        <ul>
+            <li>QuickNote relies on browser storage, and notes are stored locally. Make sure to copy important
+                information elsewhere if you need to retain it beyond a browser session.</li>
+        </ul>
+    </div>
 
 
     <script src="app.js"></script>

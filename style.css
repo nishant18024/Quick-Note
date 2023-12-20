@@ -1,0 +1,78 @@
+body {
+    background-color: #313131;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    height: 100vh;
+}
+
+#main-heading {
+    color: aliceblue;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#inputText {
+    background-color: #313131;
+    color: white;
+    border: #313131;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    width: 50%;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#addButton {
+    text-align: center;
+    font-size: large;
+    padding: 7px 20px auto;
+}
+
+#listItem {
+    padding: 0;
+    text-align: center;
+}
+
+#listItem li {
+    list-style-position: inside;
+    color: white;
+    /* Place the bullet inside the list item */
+    /* display: inline-block; */
+    /* margin-right: 10px; */
+    /* Add some space between list items if needed */
+}
+
+.centre-container {
+    flex: 3;
+    text-align: center;
+    min-width: 0;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.left-container,
+.right-container {
+    display: none;
+    /* Initially hide left and right containers on smaller screens */
+}
+
+@media (min-width: 769px) {
+    body {
+        flex-direction: row;
+    }
+
+    .centre-container {
+        flex: 3;
+    }
+
+    .left-container,
+    .right-container {
+        display: block;
+        flex: 1;
+        color: white;
+        font-size: 15px;
+        text-align: start;
+    }
+}

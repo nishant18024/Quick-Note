@@ -25,8 +25,7 @@ With NoteHub, you can effortlessly create, edit, and organize your notes with ju
 
 ## Demo
 
-Demo link
-
+https://nishant18024.github.io/Quick-Note/
 
 ## Tech Stack
 
