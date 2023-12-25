@@ -1,9 +1,9 @@
 
 # Quick Note
 
-Welcome to NoteHub, your go-to destination for seamless note-taking and organization! NoteHub is a user-friendly note-taking app designed to simplify your life and keep your thoughts in perfect order.
+Welcome to Quick Note, your go-to destination for seamless note-taking and organization! Quick Note is a user-friendly note-taking app designed to simplify your life and keep your thoughts in perfect order.
 
-With NoteHub, you can effortlessly create, edit, and organize your notes with just a few clicks. The intuitive user interface ensures a smooth experience, allowing you to focus on your ideas without any distractions. Customize your notes with different colors and styles to make them visually appealing and easy to distinguish.
+With Quick Note, you can effortlessly create, edit, and organize your notes with just a few clicks. The intuitive user interface ensures a smooth experience, allowing you to focus on your ideas without any distractions. Customize your notes with different colors and styles to make them visually appealing and easy to distinguish.
 
 ## Features
 
